@@ -1,0 +1,25 @@
+# .NET build output
+bin/
+obj/
+*.user
+.vs/
+TestResults/
+
+# React build output (npm run build writes here; Vite wipes it on each build)
+server/wwwroot/
+
+# Publish output
+publish/
+
+# Secrets / local overrides
+.env
+.env.*
+!.env.example
+appsettings.*.local.json
+
+# OS / editor
+.DS_Store
+.idea/
+.vscode/*
+!.vscode/extensions.json
+*.swp
